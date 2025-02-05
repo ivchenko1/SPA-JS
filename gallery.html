@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <ul class="Header-links-ul">
+        <li class="header-link" id="about-link">About Me</li>
+        <li class="header-link" id="contact-link">Contact</li>
+        <li class="header-link" id="gallery-link">Gallery</li>
+    </ul>
+</header>
+
+<main id="gallery">
+    <h1 class="title">Gallery</h1>
+    <div class="gallery-container">
+        <!-- Images will be dynamically added here -->
+    </div>
+</main>
+
+<!-- Modal for enlarged image -->
+<div id="modal" class="modal">
+    <span id="close-modal" class="close-button">&times;</span>
+    <img id="modal-img" class="modal-content" />
+</div>
+
+<script src="js/gallery.js"></script>
+</body>
+</html>

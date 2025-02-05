@@ -105,3 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
     applySavedTheme();
     document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
 });
+
+document.getElementById('theme-toggle').addEventListener('click', () => { 
+    document.body.classList.toggle('dark-mode'); 
+    });
