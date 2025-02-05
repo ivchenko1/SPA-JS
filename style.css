@@ -1,0 +1,118 @@
+html, body { 
+    font-family: sans-serif; 
+    text-align: center; 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+} 
+
+header { 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: #333;
+    padding: 1rem;
+} 
+
+.Header-links-ul { 
+    width: 60%; 
+    list-style: none; 
+    display: flex; 
+    justify-content: space-around; 
+    padding: 0;
+    margin: 0;
+} 
+
+.header-link { 
+    padding: 0.4rem; 
+    border-radius: 2px; 
+    cursor: pointer; 
+    color: white;
+    text-decoration: none;
+} 
+
+.header-link:hover { 
+    border-bottom: 1px solid white; 
+} 
+
+main { 
+    padding: 2rem; 
+    font-size: 1rem; 
+} 
+
+.title { 
+    font-size: 3rem; 
+} 
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* _________________ */
+
+/* Tryb ciemny */
+.dark-theme {
+    background-color: #222;
+    color: white;
+}
+
+.dark-theme header {
+    background-color: #111;
+}
+
+.dark-theme .header-link {
+    color: #bbb;
+}
+
+.dark-theme .header-link:hover {
+    border-bottom: 1px solid #bbb;
+}
+
+.dark-theme button {
+    background-color: #444;
+    color: white;
+}
+
+.dark-theme button:hover {
+    background-color: #666;
+}
+
+/* Styl przycisku przełączania */
+button {
+    background-color: #ddd;
+    color: black;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: #bbb;
+}
